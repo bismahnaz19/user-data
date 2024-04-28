@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{  
+    background-color: aliceblue; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+th{
+    font-size: 20px;
+}
+.main{
+    color: rgb(255, 255, 255);
+    height: 10vh;
+    background-color:rgb(49, 77, 129);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.box{
+    background-color: rgb(214, 238, 245);
+    border-radius: 20px;
+    margin:100px auto;
+    padding:0;
+    height:80vh;
+    width: 60%;
+    display:flex;
+    text-align:center;
+}
+td:hover{
+    background-color: rgba(56, 143, 177, 0.692);
+    font-size: 20px;
+    
+}
+tr:nth-child(even){
+    background-color: rgba(172, 224, 228, 0.829);
+}
+.name{
+    width:20%;
+}
+.Phone{
+    width:20%;
+}
+.icon{
+    border-radius: 50%;
+    max-width: 100%;
+    display: block;
+    object-fit: cover;
+    height: 50px;
+    align-items: center;
+}
